@@ -36,7 +36,8 @@ function NilaiIndex(values) {
 
   // Tampilkan nilai dan kategori indexnya
   values.forEach((value, index) => {
-    console.log([index + 1, value, "", "", categories[index]].join('\t'));
+    console.log((index + 1) + '\t' + value + '\t\t' + categories[index]);
+    //console.log([index + 1 ,+ value, "", "", categories[index]+"\t" ].join('\t'));
   });
 }
 
